@@ -58,8 +58,13 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-}
 
+  /* Add this to remove body margin */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
 /* 5) Custom components */
 @layer components {
   .max-container {
