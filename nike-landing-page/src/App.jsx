@@ -1,6 +1,4 @@
-import { useState } from "react";
 import Nav from "./components/Nav";
-
 import {
   CustomerReviews,
   Footer,
