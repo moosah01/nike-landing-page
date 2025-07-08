@@ -92,6 +92,34 @@
   .padding-l {
     @apply sm:pl-16 pl-8;
   }
+  .my-responsive-class {
+    /* min- or no prefix indicates => this size and larger */
+    /* max- This size and smaller */
+    @apply /* 📱 MOBILE PORTRAIT (0px - 639px) */
+    /* Small phones, iPhone SE, older Android phones */
+    p-4 bg-red-500 text-sm rounded-none
+    
+    /* 📱 MOBILE LANDSCAPE & LARGE PHONES (640px - 767px) */
+    /* iPhone 12/13 landscape, larger Android phones */
+    sm:p-6 sm:bg-blue-500 sm:text-base sm:rounded-md
+    
+    /* 📱 TABLETS PORTRAIT (768px - 1023px) */
+    /* iPad portrait, Android tablets, Surface */
+    md:p-8 md:bg-green-500 md:text-lg md:rounded-lg
+    
+    /* 💻 TABLETS LANDSCAPE & SMALL LAPTOPS (1024px - 1279px) */
+    /* iPad landscape, small laptops, Chromebooks */
+    lg:p-10 lg:bg-yellow-500 lg:text-xl lg:rounded-xl
+    
+    /* 🖥️ LAPTOPS & DESKTOPS (1280px - 1535px) */
+    /* MacBook Pro, most laptops, smaller desktop monitors */
+    xl:p-12 xl:bg-purple-500 xl:text-2xl xl:rounded-2xl
+    
+    /* 🖥️ LARGE DESKTOPS & 4K MONITORS (1536px+) */
+    /* Large desktop monitors, 4K displays, ultra-wide screens */
+    2xl:p-16 2xl:bg-pink-500 2xl:text-3xl 2xl:rounded-3xl;
+  }
+
   .padding-r {
     @apply sm:pr-16 pr-8;
   }
