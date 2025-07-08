@@ -1,4 +1,4 @@
-import star from "../assets/icons/star.svg"; // ✅ Uncomment and fix
+import star from "../assets/icons/star.svg";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
