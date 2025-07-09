@@ -7,14 +7,13 @@ import { bigShoe1, bigShoe2, bigShoe3 } from "../assets/images";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
-  // when its extra large screen, all elements appear in single row
-  // else they appear in a single column
+
   return (
     <section
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28">
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer collections
         </p>
@@ -54,10 +53,10 @@ const Hero = () => {
           alt="shoe colletion"
           width={610}
           height={502}
-          className="object-contain relative z-10"
+          className="object-contain relative z-20"
         />
 
-        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[16%] max-sm:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[16%] max-sm:px-6 z-20">
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard

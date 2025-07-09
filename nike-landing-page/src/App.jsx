@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+import ScrollToTop from "./components/ScrollToTop";
 import {
   CustomerReviews,
   Footer,
@@ -35,12 +36,18 @@ const App = () => {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
-      <section className="my-responsive-class">
-        <div>Testing out responsiveness</div>
+      <section className="my-responsive-class text-shadow-black font-bold font-montserrat text-center text-wrap">
+        <div className="text-white-400">
+          Hello! This is a dummy section to test out responsiveness with
+          TailwindCSS and its different className specifications. Try Resizing
+          it!
+        </div>
       </section>
       <section className=" bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
+
+      <ScrollToTop />
     </main>
   );
 };
