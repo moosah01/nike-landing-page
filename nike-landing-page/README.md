@@ -1,6 +1,6 @@
 # 🎬 Nike Landing Page
 
-A sleek, responsive landing page for Nike-inspired shoes built with **React + Vite**, **Tailwind CSS**, and **Appwrite** patterns — showcasing modern UI features and animations.
+A sleek, responsive landing page for Nike-inspired shoes built with **React + Vite**, **Tailwind CSS** patterns — showcasing modern UI features and animations.
 
 ---
 
@@ -23,24 +23,6 @@ Implemented following a step-by-step tutorial by **JavaScript Mastery**:
 ---
 
 ## 🗂 Project Structure
-
-_Source files reside in the **``** directory, organized by feature and component._
-
-```
-├── public/           # Static assets
-├── src/              # React source code
-│   ├── assets/       # Images & icons
-│   ├── components/   # Reusable UI components
-│   ├── sections/     # Page sections (Hero, Services, etc.)
-│   ├── constants/    # Static data (nav links, products, footer links)
-│   ├── App.jsx       # Main application entry
-│   └── main.jsx      # Vite bootstrap
-├── .env              # Environment variables
-├── index.html        # Vite HTML template
-└── tailwind.config.js# Tailwind CSS configuration
-```
-
----
 
 ## 🔍 Features
 
